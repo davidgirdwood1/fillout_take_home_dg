@@ -25,7 +25,7 @@ app.get('/:formId/filteredResponses', fetchFilteredResponse);
 /* Define a route for the root path ("/")
  using the HTTP GET method */
 app.get("/", (req: Request, res: Response) => {
-  res.send("Express + TypeScript Server");
+  res.send("Welcome to Dave's Express + TypeScript Server");
 });
 
 /* Start the Express app and listen
